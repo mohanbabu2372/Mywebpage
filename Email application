@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Application</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;">
+
+    <!-- Header -->
+    <div style="background-color: #4CAF50; color: white; padding: 15px; text-align: center;">
+        <h1 style="margin: 0; font-size: 24px;">My Email App</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div style="display: flex; height: 100vh;">
+
+        <!-- Sidebar -->
+        <div style="width: 200px; background-color: #333; color: white; padding: 15px;">
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="padding: 10px; font-size: 18px; cursor: pointer; border-bottom: 1px solid #444;">
+                    <strong>Inbox</strong>
+                </li>
+                <li style="padding: 10px; font-size: 18px; cursor: pointer; border-bottom: 1px solid #444;">
+                    Sent
+                </li>
+                <li style="padding: 10px; font-size: 18px; cursor: pointer; border-bottom: 1px solid #444;">
+                    Drafts
+                </li>
+                <li style="padding: 10px; font-size: 18px; cursor: pointer; border-bottom: 1px solid #444;">
+                    Trash
+                </li>
+                <li style="padding: 10px; font-size: 18px; cursor: pointer; border-bottom: 1px solid #444;">
+                    Settings
+                </li>
+            </ul>
+        </div>
+
+        <!-- Email List -->
+        <div style="flex-grow: 1; padding: 20px; background-color: #fff; overflow-y: auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h2 style="margin: 0;">Inbox</h2>
+                <button
+                    style="background-color: #4CAF50; color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 16px;">
+                    Compose
+                </button>
+            </div>
+
+            <!-- Email 1 -->
+            <div style="border-bottom: 1px solid #ddd; padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <strong>John Doe</strong> - Subject: Meeting Reminder
+                    <p style="margin: 5px 0; color: #777;">Hi, just a reminder about our meeting tomorrow...</p>
+                </div>
+                <div style="font-size: 12px; color: #aaa;">2 hours ago</div>
+            </div>
+
+            <!-- Email 2 -->
+            <div style="border-bottom: 1px solid #ddd; padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <strong>Jane Smith</strong> - Subject: Project Update
+                    <p style="margin: 5px 0; color: #777;">The latest project update has been uploaded to the drive...</p>
+                </div>
+                <div style="font-size: 12px; color: #aaa;">5 hours ago</div>
+            </div>
+
+            <!-- Email 3 -->
+            <div style="border-bottom: 1px solid #ddd; padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <strong>Bob Martin</strong> - Subject: New Assignment
+                    <p style="margin: 5px 0; color: #777;">Please check the new assignment attached...</p>
+                </div>
+                <div style="font-size: 12px; color: #aaa;">1 day ago</div>
+            </div>
+
+            <!-- Email 4 -->
+            <div style="border-bottom: 1px solid #ddd; padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <strong>Alice Johnson</strong> - Subject: Holiday Plans
+                    <p style="margin: 5px 0; color: #777;">I wanted to share the plans for the upcoming holiday...</p>
+                </div>
+                <div style="font-size: 12px; color: #aaa;">2 days ago</div>
+            </div>
+
+            <!-- Email 5 -->
+            <div style="border-bottom: 1px solid #ddd; padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <strong>Charlie Brown</strong> - Subject: Important Notification
+                    <p style="margin: 5px 0; color: #777;">Please read this important notification regarding your account...</p>
+                </div>
+                <div style="font-size: 12px; color: #aaa;">3 days ago</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
